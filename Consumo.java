@@ -1,4 +1,3 @@
-public class Consumo{
 public class Consumo {
     private String tipo;
     private String descripcion;
@@ -55,9 +54,4 @@ public class Consumo {
                "\nPrecio unitario: S/ " + precioUnitario +
                "\nSubtotal: S/ " + calcularSubtotal();
     }
-}
-
-public double calcularSubtotal() {
-    // TODO Auto-generated method stub
-    throw new UnsupportedOperationException("Unimplemented method 'calcularSubtotal'");
 }
